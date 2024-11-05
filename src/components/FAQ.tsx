@@ -6,22 +6,39 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What skill level is required to participate?",
-      answer: "The competition is designed for intermediate to advanced programmers. Participants should have a strong foundation in algorithms and data structures.",
+      question: "How can I apply to the Go for Gold Camp?",
+      answer: "The Go for Gold Camp is an exclusive, invite-only program. To apply, simply fill out the application form below and take the first step toward joining us in the pursuit of ICPC gold! Shortlisted Candidates will get their invite by 20th Nov.",
     },
     {
-      question: "What programming languages are allowed?",
-      answer: "Participants can use Python, Java, C++, or JavaScript during the competition. The choice of language won't affect scoring.",
+      question: "Is there Accommodation Provided?",
+      answer: "Yes, accommodation is arranged for all participants attending the Go for Gold Camp and is covered. Further details will be shared with accepted applicants.",
     },
     {
-      question: "Is the bootcamp mandatory?",
-      answer: "While not mandatory, the bootcamp is highly recommended as it provides valuable preparation and insights from industry experts.",
+      question: "How to reach the campus?",
+      answer: "The campus is accessible by several transportation options. The nearest train station is Sonipat railway station, which is well-connected to other major cities. If you're travelling by metro, the closest station is Jahangirpuri Metro Station in Delhi. From either location, local transportation options are available to reach the campus. Detailed directions and assistance will be provided to accepted participants for a smooth arrival.",
     },
     {
-      question: "What happens after registration?",
-      answer: "You'll receive a welcome email with detailed instructions, access to practice materials, and your personal schedule for the bootcamp.",
+      question: "What are the technical requirements?",
+      answer: "Participants should bring a personal laptop capable of running coding environments smoothly, with a stable internet connection and updated software for competitive programming (such as IDEs, compilers, and version control). It’s also recommended to have a few essential tools installed, like code editors, and be familiar with platforms used for ICPC training. More specific requirements or setup instructions will be shared before the camp begins.",
     },
-  ];
+    {
+      question: "Is scholarship available?",
+      answer: "Yes, scholarships are available for participants, awarded on a merit basis according to ICPC prelims performance. High-performing candidates may qualify for these scholarships to support their attendance at the camp.",
+    },
+    {
+      question: "Is food included?",
+      answer: "Yes, Vegetarian 4 meals will be provided for all participants during the Go for Gold Camp. Breakfast, Lunch, Snacks, and Dinner.",
+    },
+    {
+      question: "What is the refund policy?",
+      answer: "If you are unable to attend the Go for Gold Camp, please notify us via email before November 30th to be eligible for a refund. Unfortunately, we cannot process refunds for cancellations made after this date.",
+    },
+    {
+      question: "How can I get in touch with you?",
+      answer: "If you have any questions or need assistance, you can reach out to us via email at [your email address] or through our contact form on the website. We aim to respond to all inquiries as promptly as possible.",
+    },
+];
+
 
   return (
     <div id="faq" className="py-20 bg-white">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Github, Linkedin, Twitter } from 'lucide-react';
+import { Code2, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -29,23 +29,23 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">Email: info@goforgold.com</li>
-              <li className="text-gray-400">Phone: +1 (555) 123-4567</li>
-              <li className="text-gray-400">Location: San Francisco, CA</li>
+              <li className="text-gray-400">Email: prayog.m@nst.rishihood.edu.in</li>
+              <li className="text-gray-400">Phone: +91 8097602463</li>
+              <li className="text-gray-400">Location: Delhi, NCR</li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-500">
+              <a href="https://x.com/nst_edu" target='_blank' className="text-gray-400 hover:text-yellow-500">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-500">
+              <a href="https://www.linkedin.com/school/newton-school-of-technology/" target='_blank' className="text-gray-400 hover:text-yellow-500">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-500">
-                <Github className="h-6 w-6" />
+              <a href="https://www.instagram.com/newtonschooloftechnology/" target='_blank' className="text-gray-400 hover:text-yellow-500">
+                <Instagram className="h-6 w-6" />
               </a>
             </div>
           </div>

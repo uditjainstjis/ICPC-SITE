@@ -5,23 +5,23 @@ export default function Stats() {
   const stats = [
     {
       icon: <Trophy className="h-8 w-8 text-yellow-500" />,
-      value: "$50K",
+      value: "₹5Lakhs+",
       label: "Prize Pool",
     },
     {
       icon: <Users className="h-8 w-8 text-yellow-500" />,
-      value: "50+",
-      label: "Expert Coaches",
+      value: "150+",
+      label: "Participants",
     },
     {
       icon: <Globe2 className="h-8 w-8 text-yellow-500" />,
-      value: "100+",
-      label: "Countries",
+      value: "60+",
+      label: "Colleges",
     },
     {
       icon: <Rocket className="h-8 w-8 text-yellow-500" />,
-      value: "95%",
-      label: "Success Rate",
+      value: "10+",
+      label: "Expert Coaches",
     },
   ];
 
@@ -35,7 +35,7 @@ export default function Stats() {
                 <div className="inline-flex items-center justify-center mb-4">
                   {stat.icon}
                 </div>
-                <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">{stat.value}</div>
                 <div className="text-sm text-gray-500">{stat.label}</div>
               </div>
             ))}
