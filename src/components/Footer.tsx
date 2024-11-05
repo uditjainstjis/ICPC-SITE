@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="ml-2 text-xl font-bold">Go For Gold</span>
             </div>
             <p className="text-gray-400">
-              The world's premier competitive programming bootcamp and competition.
+              Go for Gold: Uniting India’s Top Coders to Conquer the ICPC Stage!
             </p>
           </div>
           
