@@ -65,32 +65,34 @@ export default function Coaches() {
 
   return (
     <div id="coaches" className="py-20 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-    <h2 className="text-4xl font-bold text-center mb-12">Our Expert Coaches</h2>
-    <div className="relative">
-      <div className="flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+        <h2 className="text-4xl font-bold text-center mb-12 ">Our Expert Coaches</h2>
+        <div className="relative">
+          <div className="flex items-center md:flex-row  justify-center ">
 
-        <div className="flex overflow-x-auto space-x-8 lg:space-x-8 py-4">
-          {coaches.map((coach, index) => (
-            <div
-              key={index}
-              className="bg-white p-6 w-[260px] min-w-[240px] sm:h-[265px] rounded-xl shadow-lg transform transition-all duration-300"
-            >
-              <img
-                src={coach.image}
-                alt={coach.name}
-                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-              />
-              <h3 className="text-xl font-semibold text-center mb-2">{coach.name}</h3>
-              <p className="text-gray-600 text-center text-wrap whitespace-pre-line mb-2">{coach.role}</p>
+            
+            <div className="flex overflow-auto lg:flex-wrap items-center justify-center gap-8 ">
+              {coaches.map((coach, index) => (
+                <div key={index}
+                  className="bg-white p-6 w-[260px] lg:w-[260px] min-w-80 sm:h-[265px]  md:w-[100px]   rounded-xl shadow-lg transform transition-all duration-300}">
+
+                  <img
+                    src={coach.image}
+                    alt={coach.name}
+                    className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+                  />
+                  <h3 className="text-xl font-semibold text-center mb-2">{coach.name}</h3>
+                  <p className="text-gray-600 text-center text-wrap whitespace-pre-line mb-2">{coach.role}</p>
+                  {/* <p className="text-yellow-500 text-center font-medium">{coach.company}</p> */}
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
 
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   );
 }
 
