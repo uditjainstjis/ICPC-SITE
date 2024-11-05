@@ -4,50 +4,125 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 export default function Schedule() {
   const schedule = [
     {
-      date: "March 15",
+      date: "December 4",
       events: [
         {
-          time: "9:00 AM - 12:00 PM",
-          title: "Algorithm Masterclass",
-          description: "Deep dive into advanced algorithmic concepts",
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
           instructor: "Sarah Chen",
         },
         {
-          time: "2:00 PM - 5:00 PM",
-          title: "Problem Solving Strategies",
-          description: "Learn effective approaches to competitive programming",
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
           instructor: "Michael Rodriguez",
         },
       ],
     },
     {
-      date: "March 16",
+      date: "December 5",
       events: [
         {
-          time: "9:00 AM - 12:00 PM",
-          title: "System Design Workshop",
-          description: "Learn how to design scalable systems",
-          instructor: "David Kim",
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
         },
         {
-          time: "2:00 PM - 5:00 PM",
-          title: "Advanced Data Structures",
-          description: "Master complex data structures",
-          instructor: "Sarah Chen",
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
         },
       ],
     },
     {
-      date: "March 17",
+      date: "December 6",
       events: [
         {
-          time: "10:00 AM - 4:00 PM",
-          title: "Mock Competition",
-          description: "Full competition simulation with real-time feedback",
-          instructor: "All Coaches",
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
         },
       ],
     },
+    {
+      date: "December 7",
+      events: [
+        {
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
+        },
+      ],
+    },
+    {
+      date: "December 8",
+      events: [
+        {
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
+        },
+      ],
+    },
+    {
+      date: "December 9",
+      events: [
+        {
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
+        },
+      ],
+    },
+    {
+      date: "December 10",
+      events: [
+        {
+          time: "1 hour ",
+          title: "DIV 1",
+          description: "Discussion session",
+          instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          description: "Discussion session",
+          instructor: "Michael Rodriguez",
+        },
+      ],
+    },
+
   ];
 
   return (
@@ -60,17 +135,18 @@ export default function Schedule() {
         
         <div className="grid gap-8">
           {schedule.map((day, dayIndex) => (
-            <div key={dayIndex} className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="bg-yellow-500 text-white p-4">
-                <h3 className="text-xl font-semibold">Day {dayIndex + 1} - {day.date}</h3>
+            <div key={dayIndex} className="bg-white rounded-xl shadow-lg overflow-hidden flex sm:flex-row flex-col">
+              <div className="bg-yellow-500 text-white p-4 flex items-center">
+                <h3 className="text-xl font-semibold text-center">Day {dayIndex + 1} - {day.date}</h3>
               </div>
-              <div className="divide-y divide-gray-100">
+              <div className="divide-y divide-gray-100 flex flex-row items-center justify-center">
+
                 {day.events.map((event, eventIndex) => (
                   <div key={eventIndex} className="p-6">
-                    <div className="flex flex-wrap gap-6 items-start">
+                    <div className="flex flex-wrap gap-6 items-center border border-gray-500 p-3 ">
                       <div className="flex-1">
-                        <h4 className="text-xl font-semibold mb-2">{event.title}</h4>
-                        <p className="text-gray-600 mb-4">{event.description}</p>
+                        <h4 className="text-xl font-semibold mb-2 text-center ">{event.title}</h4>
+                        <p className="text-gray-600 mb-4 text-center">{event.description}</p>
                         <div className="flex flex-wrap gap-4 text-sm text-gray-500">
                           <div className="flex items-center">
                             <Clock className="h-4 w-4 mr-2" />
@@ -82,10 +158,7 @@ export default function Schedule() {
                           </div>
                         </div>
                       </div>
-                      <button className="group bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition flex items-center">
-                        Register
-                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                      </button>
+
                     </div>
                   </div>
                 ))}
