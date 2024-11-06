@@ -68,13 +68,13 @@ export default function Coaches() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <h2 className="text-4xl font-bold text-center mb-12 ">Our Expert Coaches</h2>
         <div className="relative">
-          <div className="flex items-center md:flex-row  justify-center ">
+          <div className="flex items-center md:flex-row  justify-center">
 
             
-            <div className="flex overflow-auto lg:flex-wrap items-center justify-center gap-8 ">
+            <div className="flex overflow-auto lg:flex-wrap lg:justify-center gap-8 ">
               {coaches.map((coach, index) => (
                 <div key={index}
-                  className="bg-white p-6 w-[260px] lg:w-[260px] min-w-80 sm:h-[265px]  md:w-[100px]   rounded-xl shadow-lg transform transition-all duration-300}">
+                  className="bg-white p-6 w-[260px] lg:w-[260px] min-w-80 sm:h-[265px]  md:w-[100px] mb-4   rounded-xl shadow-lg transform transition-all duration-300}">
 
                   <img
                     src={coach.image}

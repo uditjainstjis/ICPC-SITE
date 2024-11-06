@@ -46,7 +46,7 @@ export default function Hero() {
               alt="Coding Competition"
               className="rounded-2xl shadow-2xl"
             />
-            <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-xl shadow-lg">
+            <div className="absolute -bottom-8 -left-8 bg-white p-6 lg:block hidden rounded-xl shadow-lg">
               <p className="text-2xl font-bold text-yellow-500">December 4-11</p>
               <p className="text-gray-600">2024</p>
             </div>

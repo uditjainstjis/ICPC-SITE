@@ -169,11 +169,11 @@ export default function Schedule() {
               <div className="bg-yellow-500 text-white p-4 flex items-center">
                 <h3 className="text-xl font-semibold text-center">Day {dayIndex + 1} - {day.date}</h3>
               </div>
-              <div className="divide-y divide-gray-100 flex flex-row items-center justify-center">
+              <div className="divide-y divide-gray-100 flex flex-row items-center justify-center md:px-7 lg:px-9">
 
                 {day.events.map((event, eventIndex) => (
                   <div key={eventIndex} className="p-6">
-                    <div className="flex flex-wrap gap-6 items-center border border-gray-500 p-3 ">
+                    <div className="flex flex-wrap gap-6 items-center border border-gray-500 p-3 lg:px-8 ">
                       <div className="flex-1">
                         <div className='text-center font-bold mb-2'>{event.title}</div>
                         {/* <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4" />{event.description1}</p>
