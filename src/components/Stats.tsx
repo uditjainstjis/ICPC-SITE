@@ -5,7 +5,7 @@ export default function Stats() {
   const stats = [
     {
       icon: <Trophy className="h-8 w-8 text-yellow-500" />,
-      value: "₹5Lakhs+",
+      value: "Amazing Prize Pool!",
       label: "Prize Pool",
     },
     {

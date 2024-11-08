@@ -9,12 +9,12 @@ export default function Navbar() {
     window.open('https://forms.gle/yLzb8rNCDyNSfwbj9', '_blank');
   }
   return (
-    <nav className="bg-white/80 shadow-lg fixed w-full z-50 ">
+    <nav className="bg-white/90 shadow-lg fixed w-full z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between h-16 ">
           <div className="flex items-center ">
             {/* <Code2 className="h-8 w-8 text-yellow-500 ml-3" /> */}
-            <img src={logo} className='h-16 ml-3 mix-blend-multiply'></img>
+            <img src={logo} className='h-16 ml-3 mix-blend-multiply '></img>
             {/* <span className="ml-2 text-xl font-bold">Go For Gold</span> */}
           </div>
           

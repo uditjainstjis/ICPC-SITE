@@ -16,10 +16,16 @@ export default function About() {
           </div>
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">About Go For Gold</h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Go For Gold is more than just a coding competition - it's a platform where exceptional talent meets opportunity. 
-              Our mission is to identify and nurture the next generation of coding champions through rigorous competition and 
-              expert mentorship.
+            <h2 className='text-[1.35rem] font-semibold mt-2'>Our Vision</h2>
+
+            <p className="text-lg text-gray-600 mb-8 mt-2">
+With structured guidance, expert mentorship, and a dedicated community, we believe India can become a global contender. This is why we’ve launched Go For Gold—an initiative by Newton School of Technology (NST) to foster a culture of competitive programming excellence.
+            </p>
+<h2 className='text-[1.35rem] font-semibold mt-4'>Why It Matters</h2>
+
+            <p className="text-lg text-gray-600 mb-6 mt-2">
+Through this bootcamp, we aim to build a supportive, vibrant ecosystem for top programmers in India, and drive them to success in global competitions.
+
             </p>
             {/* <div className="grid grid-cols-2 gap-4">
               <div className="bg-yellow-50 p-4 rounded-lg">

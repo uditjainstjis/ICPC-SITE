@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import logo from '../../public-files/logo-real.jpeg'
-
+import newton from '../../public-files/newton.png'
 
 export default function Hero() {
 
@@ -12,18 +12,16 @@ export default function Hero() {
     window.open('https://forms.gle/yLzb8rNCDyNSfwbj9', '_blank');
   }
 
-
-
-
   return (
     <div id="home" className="pt-16 bg-gradient-to-br from-yellow-50 via-yellow-100 to-white min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-          {/* <img src={logo} className='mix-blend-multiply h-40 ml-2 mb-2'></img> */}
 
-            <h1 className="text-6xl font-bold text-gray-900 mb-6">
-              Go For <span className="text-yellow-500">Gold</span> 
+            <h1 className="text-6xl font-bold text-gray-900 mb-6 flex flex-row gap-4">
+              Go For <span className="text-yellow-500">Gold</span>  
+          {/* <img src={newton} className='mix-blend-multiply h-16 bg-sky-200 ml-2 mb-2'></img> */}
+
             </h1>
           
           <h3 className='text-3xl mb-3 font-medium'>Unlocking India’s Competitive Programming Potential</h3>

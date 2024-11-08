@@ -1,21 +1,25 @@
 import React from 'react';
 import { Code2, Instagram, Linkedin, Twitter } from 'lucide-react';
-
+import newton3 from "../../public-files/newton3.png"
 export default function Footer() {
   return (
     <footer id="contact" className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center mb-4">
+            <div className="flex flex-wrap items-center mb-4 gap-4">
+              <div className='flex flex-row items-center'>
               <Code2 className="h-8 w-8 text-yellow-500" />
               <span className="ml-2 text-xl font-bold">Go For Gold</span>
+              </div>
+
+              <img src={newton3} className='h-8 ml-1 lg:ml-0 sm:ml-3'></img>
             </div>
             <p className="text-gray-400">
               Go for Gold: Uniting India’s Top Coders to Conquer the ICPC Stage!
             </p>
           </div>
-          
+        
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
