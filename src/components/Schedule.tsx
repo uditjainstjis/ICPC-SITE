@@ -9,19 +9,19 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
+          description3: "2 hour Contest Discussion",
           
-          instructor: "Sarah Chen",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -31,18 +31,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -52,18 +52,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -73,18 +73,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -94,18 +94,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -115,18 +115,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -136,18 +136,18 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour session",
+          description1: "2 hour Expert Session",
           description2: "5 hour contest",
-          description3: "2 hour discussion",
-          instructor: "Sarah Chen",
+          description3: "2 hour Contest Discussion",
+          // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
-          description1: "1 hour session",
-          description2: "5 hour contest",
-          description3: "1 hour discussion",
-          instructor: "Michael son ",
+          description1: "2 hour Advanced CP Session",
+          description2: "5 hour Thematic Contest",
+          description3: "2 hour discussion",
+          // instructor: "Michael son ",
         },
       ],
     },
@@ -157,7 +157,14 @@ export default function Schedule() {
   return (
     <div id="schedule" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 gap-4 ">
+          <h2 className='text-4xl font-bold mt-2'>About the Bootcamp</h2>
+
+        <div className=' lg:w-[40vw] mx-auto mt-5 mb-8'>
+        <p>The Go For Gold Bootcamp is a unique opportunity for India’s top ICPC teams and competitive programming enthusiasts. Participants will train with India’s best minds, guided by internationally recognized experts, to build the skills and mindset necessary to excel on the world stage.</p>
+        </div>
+
+
           <h2 className="text-4xl font-bold mb-4">Bootcamp Schedule</h2>
           <p className="text-xl text-gray-600">Three days of intensive training with industry experts</p>
         </div>
@@ -193,10 +200,10 @@ export default function Schedule() {
                             {event.description3}
                           </div>
 
-                          <div className="flex items-center text-gray-600">
+                          {/* <div className="flex items-center text-gray-600">
                             <Calendar className="h-4 w-4 mr-2" />
                             Instructor: {event.instructor}
-                          </div>
+                          </div> */}
                         </div>
                       </div>
 
