@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import logo from '../../public-files/logo-real.jpeg'
+
 
 export default function Hero() {
 
@@ -18,13 +20,16 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
+          {/* <img src={logo} className='mix-blend-multiply h-40 ml-2 mb-2'></img> */}
+
             <h1 className="text-6xl font-bold text-gray-900 mb-6">
               Go For <span className="text-yellow-500">Gold</span> 
             </h1>
+          
+          <h3 className='text-3xl mb-3 font-medium'>Unlocking India’s Competitive Programming Potential</h3>
+
             <p className="text-lg text-gray-600 mb-8">   
-                The "Go for Gold" Bootcamp aims to cultivate competitive programming skills, offering participants the opportunity to train among India’s top ICPC teams, guided by industry-leading experts. Modelled after renowned ICPC training camps, this event will bring together a diverse group of students from various institutions, all striving to excel in programming competitions and advance toward the international stage.
-                <br/>
-                <br/>
+India has some of the brightest minds in the world, yet our country is still striving to reach the top in competitive programming at the ICPC (International Collegiate Programming Contest). Despite the immense talent and a growing community of competitive coders, India has yet to secure a place on the ICPC World Finals podium.
                 <span className='text-lg text-gray-600 mb-8'>
   This program aims to be the first to build a more robust, competitive ecosystem of top programmers from college and industry. We invite every student, mentor, and institution to join hands in this mission. 
                 </span>
