@@ -41,8 +41,9 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">Home</a>
-            <a href="#coaches" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">Coaches</a>
+            <a href="#about" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">About</a>
             <a href="#schedule" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">Schedule</a>
+            <a href="#coaches" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">Coaches</a>
             <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-yellow-500">Contact</a>
             <button onClick={Handleregisterclick} className="w-full text-center bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition">
               Register Now

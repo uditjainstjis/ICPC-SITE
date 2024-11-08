@@ -9,15 +9,17 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
+          clock:0,
+          description1: "Registration and onboarding with",
+          description2: "some introductory session and some",
+          description3: "ice breakers to know each other.",
           
           // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -31,6 +33,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -39,6 +42,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -52,6 +56,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -60,6 +65,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -73,6 +79,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -81,6 +88,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -94,6 +102,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -102,6 +111,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -115,6 +125,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -123,6 +134,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -136,6 +148,7 @@ export default function Schedule() {
         {
           time: "1 hour ",
           title: "DIV 1",
+          clock:1,
           description1: "2 hour Expert Session",
           description2: "5 hour contest",
           description3: "2 hour Contest Discussion",
@@ -144,6 +157,7 @@ export default function Schedule() {
         {
           time: "2 hour",
           title: "DIV 2",
+          clock:1,
           description1: "2 hour Advanced CP Session",
           description2: "5 hour Thematic Contest",
           description3: "2 hour discussion",
@@ -188,17 +202,19 @@ export default function Schedule() {
                         <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4 " />{event.description3}</p> */}
                         <div className="flex flex-wrap flex-col gap-4 text-sm text-black">
                           <div className="flex items-center">
-                            <Clock className="h-4 w-4 mr-2 text-gray-600" />
+                            {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
+                            
                             {event.description1}
                           </div>
                           <div className="flex items-center">
-                            <Clock className="h-4 w-4 mr-2 text-gray-600" />
+                          {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
                             {event.description2}
                           </div>
                           <div className="flex items-center">
-                            <Clock className="h-4 w-4 mr-2 text-gray-600" />
+                            {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
                             {event.description3}
                           </div>
+
 
                           {/* <div className="flex items-center text-gray-600">
                             <Calendar className="h-4 w-4 mr-2" />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 import newton from "../../public-files/newton.png"
-import newton2 from "../../public-files/newton2.png"
+import newton2 from "../../public-files/newton.png"
 
 export default function Registration() {
   function Handleregisterclick(){
@@ -9,13 +9,13 @@ export default function Registration() {
   }
   return (
     <div id="registration" className="py-20 bg-gradient-to-r from-yellow-50 to-white bg-[length:25px_25px]">
-            <img className='bg-[#1D4AAC] bg-opacity-75  w-[150px]   m:p-12 md:w-[220px] hidden sm:block  lg:w-[270px] ml-8 p-4 mt-[-20px] border border-black/50 shadow-xl rounded-lg' src={newton2} ></img>
+            <img className='bg-white bg-opacity-75  w-[150px]   m:p-12 md:w-[220px] hidden sm:block  lg:w-[270px] ml-8 p-4 mt-[-20px] border border-black/50 shadow-xl rounded-lg' src={newton2} ></img>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">        
         
         <div className='group '>
 
-      <img className='bg-[#1D4AAC]  bg-opacity-75  w-[50vw] md:w-[240px] block sm:hidden  lg:w-[270px] mx-auto p-4  mb-[60px]' src={newton2} ></img>
+      <img className='bg-white rounded-lg  bg-opacity-75  w-[50vw] md:w-[240px] block sm:hidden  lg:w-[270px] mx-auto p-4 border border-black/50 shadow-xl   mb-[60px]' src={newton2} ></img>
       <div className='w-[25vw] h-[9vw] absolute none rounded-xl bg-transparent md:block z-10 mt-[-60px] group '>
 
       <div className='absolute left-10  bg-white border  group-hover:block border-black rounded-xl p-6 mt-[400px] hidden md:block w-[45vw] lg:w-[52vw]  shadow-2xl'>
