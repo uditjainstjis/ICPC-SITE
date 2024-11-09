@@ -54,7 +54,7 @@ export default function Schedule() {
           clock:1,
           description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           description2: "Training Sessions",
-          description3:"iㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
+          description3:"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
           // description1: "2 hour Advanced CP Session",
           // description2: "5 hour Thematic Contest",
           // description3: "2 hour discussion",
