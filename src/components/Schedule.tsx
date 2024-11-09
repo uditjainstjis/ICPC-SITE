@@ -4,7 +4,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 export default function Schedule() {
   const schedule = [
     {
-      date: "December 4",
+      date: "December 04ㅤ",
       events: [
         {
           time: "1 hour ",
@@ -12,7 +12,10 @@ export default function Schedule() {
           clock:0,
           description1: "Registration and onboarding with",
           description2: "some introductory session and some",
-          description3: "ice breakers to know each other.",
+          description3:"ice breakers to know each other."
+          // description1: "Registration and onboarding with",
+          // description2: "some introductory session and some",
+          // description3: "ice breakers to know each other.",
           
           // instructor: "Sarah Chen",
         },
@@ -20,124 +23,133 @@ export default function Schedule() {
           time: "2 hour",
           title: "DIV 2",
           clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
+          description1: "Registration and onboarding with",
+          description2: "some introductory session and some",
+          description3:"ice breakers to know each other."
+          // description1: "2 hour Advanced CP Session",
+          // description2: "5 hour Thematic Contest",
+          // description3: "2 hour discussion",
           // instructor: "Michael son ",
         },
       ],
     },
     {
-      date: "December 5",
+      date: "December 5-8 ",
       events: [
         {
           time: "1 hour ",
           title: "DIV 1",
           clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training Sessions",
+          description3:"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
+          // description1: "2 hour Expert Session",
+          // description2: "5 hour contest",
+          // description3: "2 hour Contest Discussion",
           // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
           clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training Sessions",
+          description3:"iㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
+          // description1: "2 hour Advanced CP Session",
+          // description2: "5 hour Thematic Contest",
+          // description3: "2 hour discussion",
           // instructor: "Michael son ",
         },
       ],
     },
+    //{
+    //   date: "December 6",
+    //   events: [
+    //     {
+    //       time: "1 hour ",
+    //       title: "DIV 1",
+    //       clock:1,
+    //       description1: "2 hour Expert Session",
+    //       description2: "5 hour contest",
+    //       description3: "2 hour Contest Discussion",
+    //       // instructor: "Sarah Chen",
+    //     },
+    //     {
+    //       time: "2 hour",
+    //       title: "DIV 2",
+    //       clock:1,
+    //       description1: "2 hour Advanced CP Session",
+    //       description2: "5 hour Thematic Contest",
+    //       description3: "2 hour discussion",
+    //       // instructor: "Michael son ",
+    //     },
+    //   ],
+    // },
+    // {
+    //   date: "December 7",
+    //   events: [
+    //     {
+    //       time: "1 hour ",
+    //       title: "DIV 1",
+    //       clock:1,
+    //       description1: "2 hour Expert Session",
+    //       description2: "5 hour contest",
+    //       description3: "2 hour Contest Discussion",
+    //       // instructor: "Sarah Chen",
+    //     },
+    //     {
+    //       time: "2 hour",
+    //       title: "DIV 2",
+    //       clock:1,
+    //       description1: "2 hour Advanced CP Session",
+    //       description2: "5 hour Thematic Contest",
+    //       description3: "2 hour discussion",
+    //       // instructor: "Michael son ",
+    //     },
+    //   ],
+    // },
+    // {
+    //   date: "December 8",
+    //   events: [
+    //     {
+    //       time: "1 hour ",
+    //       title: "DIV 1",
+    //       clock:1,
+    //       description1: "2 hour Expert Session",
+    //       description2: "5 hour contest",
+    //       description3: "2 hour Contest Discussion",
+    //       // instructor: "Sarah Chen",
+    //     },
+    //     {
+    //       time: "2 hour",
+    //       title: "DIV 2",
+    //       clock:1,
+    //       description1: "2 hour Advanced CP Session",
+    //       description2: "5 hour Thematic Contest",
+    //       description3: "2 hour discussion",
+    //       // instructor: "Michael son ",
+    //     },
+    //   ],
+    // }
     {
-      date: "December 6",
+      date: "December 09",
       events: [
         {
           time: "1 hour ",
           title: "DIV 1",
           clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Leisure Day",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
           clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
-          // instructor: "Michael son ",
-        },
-      ],
-    },
-    {
-      date: "December 7",
-      events: [
-        {
-          time: "1 hour ",
-          title: "DIV 1",
-          clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
-          // instructor: "Sarah Chen",
-        },
-        {
-          time: "2 hour",
-          title: "DIV 2",
-          clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
-          // instructor: "Michael son ",
-        },
-      ],
-    },
-    {
-      date: "December 8",
-      events: [
-        {
-          time: "1 hour ",
-          title: "DIV 1",
-          clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
-          // instructor: "Sarah Chen",
-        },
-        {
-          time: "2 hour",
-          title: "DIV 2",
-          clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
-          // instructor: "Michael son ",
-        },
-      ],
-    },
-    {
-      date: "December 9",
-      events: [
-        {
-          time: "1 hour ",
-          title: "DIV 1",
-          clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
-          // instructor: "Sarah Chen",
-        },
-        {
-          time: "2 hour",
-          title: "DIV 2",
-          clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Leisure Day",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           // instructor: "Michael son ",
         },
       ],
@@ -149,23 +161,45 @@ export default function Schedule() {
           time: "1 hour ",
           title: "DIV 1",
           clock:1,
-          description1: "2 hour Expert Session",
-          description2: "5 hour contest",
-          description3: "2 hour Contest Discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training Sessions",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           // instructor: "Sarah Chen",
         },
         {
           time: "2 hour",
           title: "DIV 2",
           clock:1,
-          description1: "2 hour Advanced CP Session",
-          description2: "5 hour Thematic Contest",
-          description3: "2 hour discussion",
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training Sessions",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
           // instructor: "Michael son ",
         },
       ],
     },
-
+    {
+      date: "December 11",
+      events: [
+        {
+          time: "1 hour ",
+          title: "DIV 1",
+          clock:1,
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training with Prize Distribution",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          // instructor: "Sarah Chen",
+        },
+        {
+          time: "2 hour",
+          title: "DIV 2",
+          clock:1,
+          description1: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          description2: "Training with Prize Distribution",
+          description3: "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+          // instructor: "Michael son ",
+        },
+      ],
+    },
   ];
 
   return (
@@ -188,7 +222,7 @@ export default function Schedule() {
           {schedule.map((day, dayIndex) => (
             <div key={dayIndex} className="bg-white rounded-xl shadow-lg overflow-hidden flex sm:flex-row flex-col">
               <div className="bg-yellow-500 text-white p-4 flex items-center">
-                <h3 className="text-xl font-semibold text-center">Day {dayIndex + 1} - {day.date}</h3>
+                <h3 className="text-xl font-semibold text-center whitespace-pre-line">Day {dayIndex + 1} - {day.date}</h3>
               </div>
               <div className="divide-y divide-gray-100 flex flex-row items-center justify-center md:px-7 lg:px-9">
 
@@ -200,18 +234,18 @@ export default function Schedule() {
                         {/* <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4" />{event.description1}</p>
                         <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4 " />{event.description2}</p>
                         <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4 " />{event.description3}</p> */}
-                        <div className="flex flex-wrap flex-col gap-4 text-sm text-black">
-                          <div className="flex items-center">
-                            {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
+                        <div className="flex flex-wrap flex-col gap-4 text-sm text-black text-center">
+                          <div className="flex items-center mx-auto">
+                            {/* {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>} */}
                             
                             {event.description1}
                           </div>
-                          <div className="flex items-center">
-                          {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
+                          <div className="flex items-center mx-auto">
+                          {/* {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>} */}
                             {event.description2}
                           </div>
-                          <div className="flex items-center">
-                            {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>}
+                          <div className="flex items-center mx-auto">
+                            {/* {event.clock==1?(<><Clock className="h-4 w-4 mr-2 text-gray-600" /> </>):<> </>} */}
                             {event.description3}
                           </div>
 

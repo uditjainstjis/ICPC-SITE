@@ -9,6 +9,7 @@ import coach5 from '../../public-files/amir.png';
 import coach6 from '../../public-files/shreyan.png';
 import coach7 from '../../public-files/vivek.jpeg';
 import coach8 from '../../public-files/user.png';
+import coach9 from '../../public-files/aryan.jpeg'
 export default function Coaches() {
   const coaches = [
     {
@@ -27,7 +28,7 @@ export default function Coaches() {
     {
       name: "Aryan Chouhan",
       role: "2x ICPC World Finalist\nGrand Master on CodeForces",
-      image: coach8,
+      image: coach9,
 
       //company: "Ex-Amazon",
     },
