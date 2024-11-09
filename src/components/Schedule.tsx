@@ -227,7 +227,7 @@ export default function Schedule() {
               <div className="divide-y divide-gray-100 flex flex-row items-center justify-center md:px-7 lg:px-9">
 
                 {day.events.map((event, eventIndex) => (
-                  <div key={eventIndex} className="p-6">
+                  <div key={eventIndex} className=" py-4 px-4 sm:p-6">
                     <div className="flex flex-wrap gap-6 items-center border border-gray-500 p-3 lg:px-8 ">
                       <div className="flex-1">
                         <div className='text-center font-bold mb-2'>{event.title}</div>
