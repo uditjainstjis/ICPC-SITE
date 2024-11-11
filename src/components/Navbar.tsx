@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, X, Code2, Hand } from 'lucide-react';
 import logo from '../../public-files/logo-real.jpeg'
-
+import newton from "../../public-files/newton4.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -9,16 +9,26 @@ export default function Navbar() {
     window.open('https://forms.gle/yLzb8rNCDyNSfwbj9', '_blank');
   }
   return (
+    //changes start
     <nav className="bg-white/90 shadow-lg fixed w-full z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between h-16 ">
           <div className="flex items-center ">
             {/* <Code2 className="h-8 w-8 text-yellow-500 ml-3" /> */}
-            <img src={logo} className='h-16 ml-3 mix-blend-multiply '></img>
+            <a href='https://www.goforgold.in'>
+            <img src={logo} className='h-14 lg:h-16 ml-[-10px] lg:ml-3 mix-blend-multiply '></img>
+            </a>
+            
+            <h3 className='text-[14px] font-bold lg:ml-3'>X</h3>
+            <a href='https://www.newtonschool.co/newton-school-of-technology-nst/home' target='_blank'>
+            <img src={newton} className='h-8 lg:h-10 ml-3 mix-blend-multiply '></img></a>
+            
+          
+           
             {/* <span className="ml-2 text-xl font-bold">Go For Gold</span> */}
           </div>
           
-          <div className="hidden md:flex items-center space-x-8 ">
+          <div className="hidden md:flex items-center text-sm lg:text-base space-x-5 lg:space-x-6 ">
             <a href="#home" className="text-gray-700 hover:text-yellow-500">Home</a>
             <a href="#about" className="text-gray-700 hover:text-yellow-500">About</a>
             <a href="#schedule" className="text-gray-700 hover:text-yellow-500">Schedule</a>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import logo from '../../public-files/logo-real.jpeg'
-import newton from '../../public-files/newton.png'
+import newton from "../../public-files/newton4.png"
 
 export default function Hero() {
 
@@ -18,12 +18,11 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
 
-            <h1 className="text-6xl font-bold text-gray-900 mb-6 flex flex-row gap-4">
+            <h1 className="text-6xl font-bold text-gray-900 mb-6 flex flex-row gap-4 ">
               Go For <span className="text-yellow-500">Gold</span>  
-          {/* <img src={newton} className='mix-blend-multiply h-16 bg-sky-200 ml-2 mb-2'></img> */}
+            </h1>  
+            <h4 className='ml-2 text-zinc-900/50  text-xl mt-[-17px] mb-4'>Powered By NST</h4>
 
-            </h1>
-          
           <h3 className='text-3xl mb-3 font-medium'>Unlocking India’s Competitive Programming Potential</h3>
 
             <p className="text-lg text-gray-600 mb-8">   
