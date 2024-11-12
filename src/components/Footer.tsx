@@ -35,7 +35,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="text-gray-400">Email: <a href="mailto:deepak.gour@newtonschool.co" target="_blank" className='hover:text-red-500'>deepak.gour@newtonschool.co</a></li>
               <li className="text-gray-400">Phone: <a href='tel:+918982365919' className='hover:text-red-500' target='_blank'>+91 8982365919</a></li>
-              <li className="text-gray-400" >Location:<a href ="https://www.google.com/maps/place/Newton+School+of+Technology,+Delhi+NCR/@28.9829162,77.0852504,17z/data=!3m1!4b1!4m6!3m5!1s0x390db15c164f0a91:0xcab7be79bc1b3bac!8m2!3d28.9829116!4d77.0901213!16s%2Fg%2F11v0jv3503?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target='_blank' className='hover:text-red-500 text-blue-500'>Newton School of Technology, Delhi</a></li>
+              <li className="text-gray-400 whitespace-pre-line" ><span>Location:</span><a href ="https://www.google.com/maps/place/Newton+School+of+Technology,+Delhi+NCR/@28.9829162,77.0852504,17z/data=!3m1!4b1!4m6!3m5!1s0x390db15c164f0a91:0xcab7be79bc1b3bac!8m2!3d28.9829116!4d77.0901213!16s%2Fg%2F11v0jv3503?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target='_blank' className='hover:text-red-500 text-blue-500 w-12'>Newton School of  Technology, Rishihood University, Delhi</a></li>
               <li className="text-gray-400">Website: <a target="_blank" href='www.newtonschool.co' className='hover:text-red-500'>www.newtonschool.co</a></li>
             </ul>
           </div>

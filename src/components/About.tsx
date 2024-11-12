@@ -19,7 +19,7 @@ export default function About() {
             <h2 className='text-[1.35rem] font-semibold mt-2'>Our Vision</h2>
 
             <p className="text-lg text-gray-600 mb-8 mt-2">
-With structured guidance, expert mentorship, and a dedicated community, we believe India can become a global contender. This is why we’ve launched Go For Gold—an initiative by Newton School of Technology (NST) to foster a culture of competitive programming excellence.
+              With structured guidance, expert mentorship, and a dedicated community, we believe India can become a global contender. This is why we’ve launched Go For Gold—an initiative by Newton School of Technology (NST) to foster a culture of competitive programming excellence.
             </p>
 <h2 className='text-[1.35rem] font-semibold mt-4'>Why It Matters</h2>
 

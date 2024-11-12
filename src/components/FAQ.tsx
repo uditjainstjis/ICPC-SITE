@@ -7,7 +7,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "How can I apply to the Go for Gold Camp?",
-      answer: "The Go for Gold Camp is an exclusive, invite-only program. To apply, simply fill out the application form below and take the first step toward joining us in the pursuit of ICPC gold! Shortlisted Candidates will get their invite by 20th Nov.",
+      answer: "The Go for Gold Camp is an exclusive, invite-only program. To apply, simply fill out the application form and take the first step toward joining us in the pursuit of ICPC gold! Shortlisted Candidates will get their invite by 20th Nov.",
     },
     {
       question: "Is there Accommodation Provided?",

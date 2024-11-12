@@ -26,7 +26,11 @@ export default function Hero() {
           <h3 className='text-3xl mb-3 font-medium'>Unlocking India’s Competitive Programming Potential</h3>
 
             <p className="text-lg text-gray-600 mb-8">   
-India has some of the brightest minds in the world, yet our country is still striving to reach the top in competitive programming at the ICPC (International Collegiate Programming Contest). Despite the immense talent and a growing community of competitive coders, India has yet to secure a place on the ICPC World Finals podium.
+            India has some of the brightest minds in the world, yet our country is still
+striving to reach the top in competitive programming at the ICPC (International
+Collegiate Programming Contest). Despite the immense talent and a growing
+community of competitive coders, India has yet to secure a place on the
+ICPC World Finals podium
                 <span className='text-lg text-gray-600 mb-8'>
   This program aims to be the first to build a more robust, competitive ecosystem of top programmers from college and industry. We invite every student, mentor, and institution to join hands in this mission. 
                 </span>

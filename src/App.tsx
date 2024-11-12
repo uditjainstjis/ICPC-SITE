@@ -16,9 +16,9 @@ function App() {
       <main>
         <Hero />
         <Stats />
+        <Coaches />
         <About />
         <Schedule />
-        <Coaches />
         <Registration />
         <FAQ />
       </main>

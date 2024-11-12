@@ -9,18 +9,25 @@ export default function Registration() {
   }
   return (
     <div id="registration" className="py-20 bg-gradient-to-r from-yellow-50 to-white bg-[length:25px_25px]">
-      <img className='bg-white bg-opacity-75  w-[150px]   m:p-12 md:w-[220px] hidden sm:block  lg:w-[270px] ml-8 p-4 mt-[-20px] border border-black/50 shadow-xl rounded-lg' src={newton2} ></img>
+      <img className='bg-white bg-opacity-75  w-[150px]   m:p-12 md:w-[220px] hidden sm:block  lg:w-[180px] ml-16 md:ml-12 p-4 mt-[-30px] sm:ml-8  lg:ml-16 rounded-lg mix-blend-multiply' src={newton2} ></img>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className='group '>
 
-          <img className='bg-white rounded-lg  bg-opacity-75  w-[50vw] md:w-[240px] block sm:hidden  lg:w-[270px] mx-auto p-4 border border-black/50 shadow-xl   mb-[60px]' src={newton2} ></img>
+          <img className='bg-white rounded-lg  bg-opacity-75  w-[50vw] md:w-[240px] block sm:hidden  lg:w-[270px] mx-auto p-4  mix-blend-multiply   mb-[60px]' src={newton2} ></img>
           <div className='w-[25vw] h-[9vw] absolute none rounded-xl bg-transparent md:block z-10 mt-[-60px] group '>
 {/* changing the webpage now */}
-            <div className='absolute left-0  bg-white border  group-hover:block  border-black rounded-xl p-6 md:w-[45vw] md:left-7 md:mt-[440px] mt-[200px] hidden md:block w-[90vw] lg:w-[52vw]  shadow-2xl'>
-              <h2 className='text-3xl'>About NST</h2>
-              Newton School of Technology (NST) is redefining tech education in India. We’re here to equip students with real-world skills in software development, data science, AI, and competitive programming. Our goal is not just to prepare students for jobs, but to nurture future leaders in tech. Our students have participated in prestigious contests like Google Summer of Code and the ICPC, and we’re committed to building India’s next generation of tech leaders.
+            <div className='absolute left-0  bg-white border  group-hover:block  border-black rounded-xl p-6 md:w-[45vw] md:left-7 md:mt-[410px] mt-[200px] hidden md:block w-[90vw] lg:w-[52vw]  shadow-2xl'>
+              <h2 className='text-2xl'>About NST</h2>
+              Newton School of Technology (NST) is redefining tech education in
+              India by nurturing a generation of problem-solvers and innovators.
+              With a strong focus on real-world skills in software development,
+              data science, AI, and competitive programming, NST is driving a
+              movement that challenges students to go beyond classroom learning.
+              Flagship programs like the ICPC Winter Camp showcase our dedication
+              to raising the bar for programming in India, inspiring students to
+              compete, collaborate, and excel at the highest levels.
 
             </div>
           </div>
@@ -45,7 +52,7 @@ export default function Registration() {
 
           <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-xl overflow-hidden mt-16">
             <div className="bg-yellow-500 p-6 text-white text-center">
-              <h3 className="text-2xl font-bold mb-2 ">Premium Package</h3>
+              <h3 className="text-2xl font-bold mb-2 ">Food and Lodging Cost</h3>
               <p className="text-xl">₹8000</p>
             </div>
             <div className="p-8">

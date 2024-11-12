@@ -222,13 +222,13 @@ export default function Schedule() {
           {schedule.map((day, dayIndex) => (
             <div key={dayIndex} className="bg-white rounded-xl shadow-lg overflow-hidden flex sm:flex-row flex-col">
               <div className="bg-yellow-500 text-white p-4 flex items-center">
-                <h3 className="text-xl font-semibold text-center whitespace-pre-line">Day {dayIndex + 1} - {day.date}</h3>
+                <h3 className="text-xl font-semibold text-center whitespace-pre-line">ㅤㅤㅤ{day.date}ㅤㅤㅤ</h3>
               </div>
               <div className="divide-y divide-gray-100 flex flex-row items-center justify-center md:px-7 lg:px-9">
 
                 {day.events.map((event, eventIndex) => (
                   <div key={eventIndex} className=" py-4 px-4 sm:p-6">
-                    <div className="flex flex-wrap gap-6 items-center border border-gray-500 p-3 lg:px-8 ">
+                    <div className="flex flex-wrap gap-6 items-center border rounded-lg border-gray-500 p-3 lg:px-8 ">
                       <div className="flex-1">
                         <div className='text-center font-bold mb-2'>{event.title}</div>
                         {/* <p className="text-black mb-4 text-center whitespace-pre-line"><Clock className="h-4 w-4" />{event.description1}</p>
