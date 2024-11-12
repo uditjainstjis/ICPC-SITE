@@ -4,7 +4,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 export default function Schedule() {
   const schedule = [
     {
-      date: "December 04ㅤ",
+      date: "December 4ㅤ",
       events: [
         {
           time: "1 hour ",
@@ -34,7 +34,7 @@ export default function Schedule() {
       ],
     },
     {
-      date: "December 5-8 ",
+      date: "December 5-8",
       events: [
         {
           time: "1 hour ",
@@ -132,7 +132,7 @@ export default function Schedule() {
     //   ],
     // }
     {
-      date: "December 09",
+      date: "December 9",
       events: [
         {
           time: "1 hour ",
@@ -221,8 +221,8 @@ export default function Schedule() {
 
           {schedule.map((day, dayIndex) => (
             <div key={dayIndex} className="bg-white rounded-xl shadow-lg overflow-hidden flex sm:flex-row flex-col">
-              <div className="bg-yellow-500 text-white p-4 flex items-center">
-                <h3 className="text-xl font-semibold text-center whitespace-pre-line">ㅤㅤㅤ{day.date}ㅤㅤㅤ</h3>
+              <div className="bg-yellow-500 text-white p-4 min-w-[220px] md:max-w-[230px] flex items-center">
+                <h3 className="text-xl font-semibold text-center whitespace-pre-line w-full items-center"><p className=' w-full mx-auto text-center ml-[-10px] mr-[10px]'>ㅤㅤㅤ{day.date}ㅤㅤㅤ</p></h3>
               </div>
               <div className="divide-y divide-gray-100 flex flex-row items-center justify-center md:px-7 lg:px-9">
 

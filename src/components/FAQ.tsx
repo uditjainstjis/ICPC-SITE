@@ -5,10 +5,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = React.useState<number | null>(null);
 
   const faqs = [
-    {
-      question: "How can I apply to the Go for Gold Camp?",
-      answer: "The Go for Gold Camp is an exclusive, invite-only program. To apply, simply fill out the application form and take the first step toward joining us in the pursuit of ICPC gold! Shortlisted Candidates will get their invite by 20th Nov.",
-    },
+
     {
       question: "Is there Accommodation Provided?",
       answer: "Yes, accommodation is arranged for all participants attending the Go for Gold Camp and is covered. Further details will be shared with accepted applicants.",
@@ -45,6 +42,25 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
         <div className="space-y-4">
+                      <div key={8} className="border rounded-lg overflow-hidden">
+              <button
+                className="w-full flex items-center justify-between p-4 text-left bg-gray-50 hover:bg-gray-100"
+                onClick={() => setOpenIndex(openIndex === 8 ? null : 8)}
+              >
+                <span className="font-medium">How can I apply to the Go for Gold Camp?</span>
+                {openIndex === 8 ? (
+                  <Minus className="h-5 w-5 text-yellow-500" />
+                ) : (
+                  <Plus className="h-5 w-5 text-yellow-500" />
+                )}
+              </button>
+              {openIndex === 8 && (
+                <div className="p-4 bg-white">
+                  <p className="text-gray-600">The Go for Gold Camp is an exclusive, invite-only program. To apply, simply fill out the <a className="text-blue-400" target='_blank' href='https://forms.gle/yLzb8rNCDyNSfwbj9'>application form.</a>  and take the first step toward joining us in the pursuit of ICPC gold! Shortlisted Candidates will get their invite by 20th Nov.</p>
+                  
+                </div>
+              )}
+            </div>
           {faqs.map((faq, index) => (
             <div key={index} className="border rounded-lg overflow-hidden">
               <button

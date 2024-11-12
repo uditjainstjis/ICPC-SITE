@@ -30,7 +30,7 @@ export default function Hero() {
 striving to reach the top in competitive programming at the ICPC (International
 Collegiate Programming Contest). Despite the immense talent and a growing
 community of competitive coders, India has yet to secure a place on the
-ICPC World Finals podium
+ICPC World Finals podium. 
                 <span className='text-lg text-gray-600 mb-8'>
   This program aims to be the first to build a more robust, competitive ecosystem of top programmers from college and industry. We invite every student, mentor, and institution to join hands in this mission. 
                 </span>
