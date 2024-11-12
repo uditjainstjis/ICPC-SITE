@@ -8,7 +8,7 @@ export default function About() {
           <div className="aspect-video rounded-xl overflow-hidden shadow-xl">
             <iframe
               className="w-full h-full"
-              src="https://youtube.com/embed/IhI7yHC-xuI"
+              src="https://www.youtube.com/embed/Jzy4x8AR6gs?si=Gzpb9AAB0M3Il7Rd"
               title="About Go For Gold"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
