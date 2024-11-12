@@ -30,9 +30,9 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center text-sm lg:text-base space-x-5 lg:space-x-6 ">
             <a href="#home" className="text-gray-700 hover:text-yellow-500">Home</a>
+            <a href="#coaches" className="text-gray-700 hover:text-yellow-500">Coaches</a>
             <a href="#about" className="text-gray-700 hover:text-yellow-500">About</a>
             <a href="#schedule" className="text-gray-700 hover:text-yellow-500">Schedule</a>
-            <a href="#coaches" className="text-gray-700 hover:text-yellow-500">Coaches</a>
             <a href="#contact" className="text-gray-700 hover:text-yellow-500">Contact</a>
             <button onClick={Handleregisterclick} className="bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition">
               Register Now
