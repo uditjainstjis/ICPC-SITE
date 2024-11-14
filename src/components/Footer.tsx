@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Code2, Instagram, Youtube, Mail } from 'lucide-react';
 import newton3 from "../../public-files/newton3.png"
 export default function Footer() {
   return (
@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">Email: <a href="mailto:deepak.gour@newtonschool.co" target="_blank" className='hover:text-red-500'>deepak.gour@newtonschool.co</a></li>
+              <li className="text-gray-400">Email: <a href="mailto:goforgold@newtonschool.co" target="_blank" className='hover:text-red-500'>goforgold@newtonschool.co</a></li>
               <li className="text-gray-400">Phone: <a href='tel:+918982365919' className='hover:text-red-500' target='_blank'>+91 8982365919</a></li>
               <li className="text-gray-400 whitespace-pre-line" ><span>Location:</span><a href ="https://www.google.com/maps/place/Newton+School+of+Technology,+Delhi+NCR/@28.9829162,77.0852504,17z/data=!3m1!4b1!4m6!3m5!1s0x390db15c164f0a91:0xcab7be79bc1b3bac!8m2!3d28.9829116!4d77.0901213!16s%2Fg%2F11v0jv3503?entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" target='_blank' className='hover:text-red-500 text-blue-500 w-12'>Newton School of  Technology, Rishihood University, Delhi</a></li>
               <li className="text-gray-400">Website: <a target="_blank" href='www.newtonschool.co' className='hover:text-red-500'>www.newtonschool.co</a></li>
@@ -43,13 +43,13 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://x.com/nst_edu" target='_blank' className="text-gray-400 hover:text-yellow-500">
-                <Twitter className="h-6 w-6" />
+              <a href="mailto:goforgold@newtonschool.co" target='_blank' className="text-gray-400 hover:text-yellow-500">
+                <Mail className="h-7 w-7" />
               </a>
-              <a href="https://www.linkedin.com/school/newton-school-of-technology/" target='_blank' className="text-gray-400 hover:text-yellow-500">
-                <Linkedin className="h-6 w-6" />
+              <a href=" https://www.youtube.com/@GoForGold-NST" target='_blank' className="text-gray-400 hover:text-yellow-500">
+                <Youtube className="h-7 w-7" />
               </a>
-              <a href="https://www.instagram.com/newtonschooloftechnology/" target='_blank' className="text-gray-400 hover:text-yellow-500">
+              <a href="https://www.instagram.com/goforgold_nst/" target='_blank' className="text-gray-400 hover:text-yellow-500">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>

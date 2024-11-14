@@ -32,7 +32,7 @@ export default function FAQ() {
     },
     {
       question: "How can I get in touch with you?",
-      answer: "If you have any questions or need assistance, you can reach out to us via email at deepak.gour@newtonschool.co or through our contact form on the website. We aim to respond to all inquiries as promptly as possible.",
+      answer: "If you have any questions or need assistance, you can reach out to us via email at goforgold@newtonschool.co or through our contact form on the website. We aim to respond to all inquiries as promptly as possible.",
     },
 ];
 
