@@ -75,7 +75,6 @@ export default function Coaches() {
     }
   ];
 
-  const [currentIndex, setCurrentIndex] = React.useState(0);
 
   return (
     <div id="coaches" className="py-20 bg-gray-50">
