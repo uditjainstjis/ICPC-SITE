@@ -16,13 +16,13 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Partners/>
         <Stats />
         <Coaches />
         <About />
         <Schedule />
-        <FAQ />
         <Registration />
+        <Partners/>
+        <FAQ />
       </main>
       <Footer />
     </div>
