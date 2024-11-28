@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Code2, Hand } from 'lucide-react';
+import { Menu, X} from 'lucide-react';
 import logo from '../../public-files/logo-real.jpeg'
 import newton from "../../public-files/newton4.png"
 
