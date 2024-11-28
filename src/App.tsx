@@ -21,8 +21,8 @@ function App() {
         <Coaches />
         <About />
         <Schedule />
-        <Registration />
         <FAQ />
+        <Registration />
       </main>
       <Footer />
     </div>
