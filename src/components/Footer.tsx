@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Instagram, Youtube, Mail } from 'lucide-react';
+import { Code2, Instagram, Youtube, Mail, Twitter, X } from 'lucide-react';
 import newton3 from "../../public-files/newton3.png"
 export default function Footer() {
   return (
@@ -51,6 +51,9 @@ export default function Footer() {
               </a>
               <a href="https://www.instagram.com/goforgold_nst/" target='_blank' className="text-gray-400 hover:text-yellow-500">
                 <Instagram className="h-6 w-6" />
+              </a>
+              <a href="https://twitter.com/goforgold_nst" target='_blank' className="text-gray-400 hover:text-yellow-500">
+                <Twitter className="h-6 w-6" />
               </a>
             </div>
           </div>
