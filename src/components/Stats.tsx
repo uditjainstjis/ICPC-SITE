@@ -10,13 +10,13 @@ export default function Stats() {
     },
     {
       icon: <Users className="h-8 w-8 text-yellow-500" />,
-      value: "150+",
+      value: "70+",
       label: "Participants",
     },
     {
       icon: <Globe2 className="h-8 w-8 text-yellow-500" />,
-      value: "60+",
-      label: "Colleges",
+      value: "25+",
+      label: "Teams",
     },
     {
       icon: <Rocket className="h-8 w-8 text-yellow-500" />,
